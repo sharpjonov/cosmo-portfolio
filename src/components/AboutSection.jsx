@@ -11,34 +11,33 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
-            </h3>
+            <h3 className="text-2xl font-semibold">Web programist</h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Men zamonaviy texnologiyalar yordamida foydalanuvchilar uchun
+              qulay, moslashuvchan va samarali veb-ilovalar yaratishga
+              ixtisoslashganman. Har doim tezkor, estetik va funksional
+              interfeyslar ustida ishlashga intilaman.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Murakkab muammolarga chiroyli va samarali yechimlar topishni
+              yoqtiraman. Veb-dasturlash doimiy rivojlanib borayotgan soha
+              bo‘lganligi sababli, yangi texnologiyalar va uslublarni
+              o‘rganishda davom etaman.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
-                Get In Touch
+                Aloqaga chiqish
               </a>
 
               <a
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                CV’ni ko‘rish
               </a>
             </div>
           </div>
@@ -50,10 +49,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Web Dasturlash </h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Qurilmalarga tez moslashuvchan va ko'rinishi zamonaviy
+                    veb-saytlar yarataman.
                   </p>
                 </div>
               </div>
@@ -64,10 +63,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">UI/UX Dizayn</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Zamonaviy,chiroyli saytlar va foydalanuvchilarga qulay
+                    interfeys qilaman.
                   </p>
                 </div>
               </div>
@@ -79,10 +78,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Loyiha Boshqaruvi</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Loyihalarni boshidan oxirigacha samarali olib boraman.
                   </p>
                 </div>
               </div>

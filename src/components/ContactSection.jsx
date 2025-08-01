@@ -138,7 +138,7 @@ export const ContactSection = () => {
                   htmlFor="name"
                   className="block text-sm font-medium mb-2"
                 >
-                  Your Name
+                  Sizning ismingiz
                 </label>
                 <input
                   type="text"
@@ -155,7 +155,7 @@ export const ContactSection = () => {
                   htmlFor="email"
                   className="block text-sm font-medium mb-2"
                 >
-                  Your Email
+                  Sizning emailingiz
                 </label>
                 <input
                   type="email"
@@ -163,7 +163,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="blabla@gmail.com"
                 />
               </div>
 
@@ -172,7 +172,7 @@ export const ContactSection = () => {
                   htmlFor="message"
                   className="block text-sm font-medium mb-2"
                 >
-                  Your Message
+                  Sizning habaringiz
                 </label>
                 <textarea
                   id="message"
@@ -190,7 +190,7 @@ export const ContactSection = () => {
                   "cosmic-button w-full flex items-center justify-center gap-2"
                 )}
               >
-                {isSubmitting ? "Sending..." : "Send Message"}
+                {isSubmitting ? "Yuborilyapti..." : "Xabar yuborish"}
                 <Send size={16} />
               </button>
             </form>
