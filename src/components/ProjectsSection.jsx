@@ -37,7 +37,7 @@ const projects = [
     title: "Radio Player",
     description:
       "Radio Player xoxlagan janrdagi musiqani yoki qiziqarli novellani eshitishga moljallangan website",
-    image: "/public/projects/radio.png",
+    image: "/projects/radio.png",
     tags: ["React Vite", "JavaScript", "Sass"],
     demoUrl: "https://echonova.vercel.app/",
     githubUrl: "https://github.com/sharpjonov/radio-app.git",
@@ -47,7 +47,7 @@ const projects = [
     title: "Game Store",
     description:
       "Game Store - bu video o'yinlarni ko'rib chiqish va sotib olish uchun mo'ljallangan veb-sayt.",
-    image: "/public/projects/game-app.png",
+    image: "/projects/game-app.png",
     tags: ["React Native", "JavaScript", "Bootstrap"],
     demoUrl: "https://game-shop-app.vercel.app/",
     githubUrl: "https://github.com/sharpjonov/game-shop-app.git",
@@ -57,7 +57,7 @@ const projects = [
     title: "Tmdb Cinema Portal",
     description:
       "Tmdb Cinema Portal - bu kino va seriallarni ko'rib chiqish va ularni baholash uchun mo'ljallangan veb-sayt.",
-    image: "/public/projects/tmdb.png",
+    image: "/projects/tmdb.png",
     tags: ["React Vite", "JavaScript", "Bootstrap"],
     demoUrl: "https://tmdbio.vercel.app/",
     githubUrl: "https://github.com/sharpjonov/tmdb-KinoPortal.git",
@@ -67,7 +67,7 @@ const projects = [
     title: "E-learning Platform",
     description:
       "E-learning Platform - bu onlayn kurslarni ko'rib chiqish va ularga yozilish uchun mo'ljallangan veb-sayt.",
-    image: "/public/projects/hackaton-education.png",
+    image: "/projects/hackaton-education.png",
     tags: ["React Native", "JavaScript", "Bootstrap"],
     demoUrl: "https://hackaton-education.vercel.app/",
     githubUrl: "https://github.com/sharpjonov/hackaton-education.git",
@@ -77,7 +77,7 @@ const projects = [
     title: "Weather App",
     description:
       "Weather App - bu ob-havo ma'lumotlarini ko'rish va bashorat qilish uchun mo'ljallangan veb-sayt.",
-    image: "/public/projects/weather.png",
+    image: "/projects/weather.png",
     tags: ["React Vite", "JavaScript", "CSS", ],
     demoUrl: "https://skycheck-kappa.vercel.app/",
     githubUrl: "https://github.com/sharpjonov/weather-app.git",
@@ -87,7 +87,7 @@ const projects = [
     title: "Nexcent",
     description:
       "Nexcent - bu ob-havo ma'lumotlarini ko'rish va bashorat qilish uchun mo'ljallangan veb-sayt.",
-    image: "/public/projects/nexcent.png",
+    image: "/projects/nexcent.png",
     tags: ["HTML", "CSS" ],
     demoUrl: "https://nexcent-zero.vercel.app/",
     githubUrl: "https://github.com/sharpjonov/nexcent.git",
