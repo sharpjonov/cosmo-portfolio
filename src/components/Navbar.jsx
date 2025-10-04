@@ -1,6 +1,6 @@
-// import BurgerMenu from "../assets/images/burger-menu.svg";
+import { ThemeToggle } from "./ThemeToggle";
 
-export const Navbar = () => {
+const Navbar = () => {
   const navItems = [
     { name: "Home", href: "#hero" },
     { name: "Men haqimda", href: "#about" },
@@ -8,16 +8,17 @@ export const Navbar = () => {
     { name: "Proyektlar", href: "#projects" },
     { name: "Aloqa", href: "#contact" },
   ];
+
   return (
     <>
-      <header>
+      <header
+        className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-background/70 border-b border-border"
+      >
         <div id="container" className="">
           <div className="flex justify-between py-[26px] items-center">
-            <div className="">
-              <h2 className="text-glow text-foreground text-xl font-bold">
-                Muhammad <span className="text-primary">Portfolio</span>
-              </h2>
-            </div>
+            <h2 className="text-glow text-foreground text-xl font-bold">
+              Muhammad <span className="text-primary">Portfolio</span>
+            </h2>
             <nav className="">
               <ul className="hidden md:flex">
                 <li className="flex gap-[30px]">
@@ -35,7 +36,13 @@ export const Navbar = () => {
             </nav>
           </div>
         </div>
+      <ThemeToggle />
       </header>
+
+      <div className="h-[90px]"></div>
+
     </>
   );
 };
+
+export default Navbar;

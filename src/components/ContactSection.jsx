@@ -52,18 +52,18 @@ export const ContactSection = () => {
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Get In <span className="text-primary"> Touch</span>
+          Aloqaga<span className="text-primary"> Chiqish</span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+          Biror loyihangiz bormi yoki hamkorlik qilishni xohlaysizmi? Albatta
+          bog‘laning. Yangi imkoniyatlar haqida suhbatlashishga doimo tayyorman.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Side */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+            <h3 className="text-2xl font-semibold mb-6">Aloqa ma'lumotlari</h3>
 
             <div className="space-y-6 justify-center">
               <div className="flex items-start space-x-4">
@@ -103,14 +103,14 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium w-[30px]">Location</h4>
                   <p className="text-muted-foreground hover:text-primary transition-colors">
-                    Coddycamp, Novza, Uzbekistan
+                    Coddycamp, BIY, Uzbekistan
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="pt-8">
-              <h4 className="font-medium mb-4">Connect With Me</h4>
+              <h4 className="font-medium mb-4">Men bilan aloqa</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
                   <Linkedin />
@@ -130,7 +130,7 @@ export const ContactSection = () => {
 
           {/* Right Side - Form */}
           <div className="bg-card p-8 rounded-lg shadow-xs">
-            <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
+            <h3 className="text-2xl font-semibold mb-6">Habar yuborish</h3>
 
             <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
               <div>

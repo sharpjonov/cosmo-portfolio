@@ -2,44 +2,28 @@ import { ArrowDown } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
-    >
-      <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in">
-              {" "}
-              Assalomu Aleykum, man
-            </span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Muhammad
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-            </span>
-          </h1>
-
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Men zamonaviy texnologiyalar yordamida veb-sahifalar yarataman.
-            Frontend dasturlashga ixtisoslashgan holda, ham chiroyli, ham
-            funksional interfeyslar quraman.
-          </p>
-
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
-              Ishimni ko'rish
+    <>
+      <section className="">
+        <div id="container">
+          <div className="max-w-4xl mx-auto pt-[200px] pb-[200px]">
+            <h1 className="text-foreground text-4xl font-bold tracking-tight md:text-6xl mb-[16px]">
+              Assalomu Aleykum,man{" "}
+              <span className="text-primary">Muhammad</span>
+            </h1>
+            <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mb-[24px]">
+              Men zamonaviy texnologiyalar yordamida veb-sahifalar yarataman.
+              Frontend dasturlashga ixtisoslashgan holda, ham chiroyli, ham
+              funksional interfeyslar quraman.
+            </p>
+            <a
+              className="bg-primary px-4 py-2 rounded-full cosmic-button animate-fade-in-delay-4"
+              href="#projects"
+            >
+              Ishimni Ko'rish
             </a>
           </div>
         </div>
-      </div>
-
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
-        <ArrowDown className="h-5 w-5 text-primary" />
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
